@@ -1,0 +1,116 @@
+.featured {
+  background-image: url('/img/featured.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1080px;
+  position: relative;
+}
+
+.featured__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.blog-article {
+  padding-bottom: 105px;
+}
+
+.blog-article__category {
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 2px;
+  color: var(--white-color);
+  text-transform: uppercase;
+  padding: 18px 31px;
+  background-color: var(--accent-color);
+  border-radius: 24px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.blog-article__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  color: var(--white-color);
+  max-width: 40%;
+  margin-bottom: 15px;
+}
+
+.blog-article__descr {
+  font-family: 'SFCompactText', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--white-color);
+  max-width: 40%;
+  margin-bottom: 43px;
+}
+
+.blog-article__link {
+  background-color: var(--neptune-color);
+  display: inline-block;
+}
+
+.featured__stories {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35.3%;
+  height: 100%;
+  background: rgba(60, 74, 81, 0.9);
+  padding: 126px 133px;
+}
+
+.featured__title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: #fff;
+  margin-bottom: 96px;
+}
+
+.featured-list__article {
+  max-width: 368px;
+  border-bottom: 1px solid rgba(227, 227, 227, 0.1);
+  display: flex;
+  align-items: flex-start;
+  font-size: 0;
+  margin-bottom: 32px;
+}
+
+.featured-list__item:last-child .featured-list__article {
+  border-bottom: 1px solid transparent;
+}
+
+.featured-list__image {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+
+.featured-list__text {
+  padding-left: 32px;
+}
+
+.featured-list__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.featured-list__time {
+  font-family: S'FProText', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.502293);
+  display: inline-block;
+  margin-bottom: 33px;
+}
