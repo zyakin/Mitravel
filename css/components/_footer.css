@@ -36,6 +36,12 @@
   color: #959ea6;
   display: inline-block;
   margin-bottom: 12px;
+  transition: color 0.3s;
+}
+
+.footer__link:hover {
+  color: #3b4044;
+  transition: color 0.3s;
 }
 
 .subs-form {
@@ -69,6 +75,12 @@
   margin-top: 16px;
   padding: 25px 120px;
   text-align: center;
+  transition: background-color 0.3s;
+}
+
+.subs-form__btn:hover {
+  background-color: var(--neptune-hover-color);
+  transition: background-color 0.3s;
 }
 
 .footer__bottom {
@@ -93,6 +105,12 @@
   font-weight: 400;
   font-size: 13px;
   color: #959ea6;
+  transition: color 0.8s;
+}
+
+.footer__links-item:hover {
+  color: #3b4044;
+  transition: color 0.8s;
 }
 
 .footer__links-item:last-child {
